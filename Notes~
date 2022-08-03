@@ -1,0 +1,10 @@
+MERN
+	M: MongoDB (host)
+	E: Express (part of Node)
+	R: React (Front-End)
+	N: Node.js (Back-End)
+
+* MongoDB data is structured similarly to a json object.
+
+node -v : checks the version of Node.js
+

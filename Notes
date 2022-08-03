@@ -1,0 +1,45 @@
+MERN
+	M: MongoDB (host)
+	E: Express (part of Node)
+	R: React (Front-End)
+	N: Node.js (Back-End)
+
+* MongoDB data is structured similarly to a json object.
+
+node -v : checks the version of Node.js
+
+npm init -y : establishes a json package
+
+installed dependencies: npm install express cors mongodb dotenv
+
+cors : cross origin resource sharing ( skip origin policy and access resources from remote source )
+express : web application framework that provides robust set of features
+dotenv : load enviromental variables
+
+npm install -g nodemon
+
+nodemon : prevent restart of web application, provides automatic update
+-g : global
+
+###ES6 Modules###
+Makes each file their own module. Therefore making each object, function, classes or variables accessible beyond their own module by exporting and importing them when needed.
+
+To enable ES6 within the project:
+1. go to package.json
+2. after main, create a new index
+3. create "type": "module",
+done
+
+###
+
+dao : data access object
+
+asynchronous vs synchronous functions
+
+asynchronous operations enable parallelization
+
+synchronous operations require sequential execution ( one at a time )
+
+* asynchronous operations are more desirable for web applications, as it is able to handle multiple requests simultaneously.
+
+
